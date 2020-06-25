@@ -58,6 +58,7 @@ main {
   background-color: #fff;
   min-height: 100vh;
   transition: transform 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 main.open {
