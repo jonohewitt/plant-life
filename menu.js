@@ -5,8 +5,8 @@ toggleTag.addEventListener("click", () => {
   mainTag.classList.toggle("open");
 
   if (mainTag.classList.contains("open")) {
-    toggleTag.innerHTML = `<img src="/assets/close.svg" alt="close icon"> Close`
+    toggleTag.innerHTML = `<img src="/plant-life/assets/close.svg" alt="close icon"> Close`
   } else {
-    toggleTag.innerHTML = `<img src="/assets/menu.svg" alt="menu icon"> Menu`;
+    toggleTag.innerHTML = `<img src="/plant-life/assets/menu.svg" alt="menu icon"> Menu`;
   }
 })
