@@ -1,4 +1,4 @@
-const toggleTag = document.querySelector("a.toggle-nav");
+const toggleTag = document.querySelector("div.toggle-nav");
 const mainTag = document.querySelector("main");
 
 toggleTag.addEventListener("click", () => {
