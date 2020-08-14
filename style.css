@@ -65,17 +65,22 @@ main.open {
   transform: translate(240px, 0);
 }
 
-div.toggle-nav {
+button.toggle-nav {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monospace;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 24px;
+  padding: 20px;
+  margin: 5px;
   text-decoration: none;
   color: #2a2a2a;
   cursor: pointer;
 }
 
-div.toggle-nav img {
+button.toggle-nav img {
   margin: 0 5px 0 0;
   vertical-align: middle;
 }
